@@ -4454,7 +4454,7 @@ figcaption {
   }
 
   .div-block-20 {
-    margin-left: 0px;
+    margin-left: auto;
   }
 
   .text-block-5 {
@@ -4536,7 +4536,7 @@ figcaption {
 
   .preloader {
     position: fixed;
-    display: block;
+    display: none;
     width: 100%;
     height: 100%;
     margin-right: auto;
