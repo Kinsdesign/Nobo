@@ -4536,7 +4536,7 @@ figcaption {
 
   .preloader {
     position: fixed;
-    display: none;
+    display: block;
     width: 100%;
     height: 100%;
     margin-right: auto;
@@ -4685,6 +4685,10 @@ figcaption {
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center;
+  }
+
+  .div-block-30 {
+    background-color: #f4f4f4;
   }
 }
 
