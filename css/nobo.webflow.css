@@ -1641,9 +1641,7 @@ figcaption {
 }
 
 .image-7 {
-  margin-top: 10px;
-  margin-bottom: 0px;
-  margin-left: 580px;
+  margin: 10px auto 0px;
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -1783,7 +1781,7 @@ figcaption {
 
 .div-block-15 {
   margin-right: auto;
-  margin-left: -102px;
+  margin-left: auto;
   padding-right: 29px;
   padding-left: 29px;
 }
@@ -2018,16 +2016,19 @@ figcaption {
 }
 
 .grid-4 {
-  -ms-grid-columns: 1fr;
-  grid-template-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
 }
 
 .link-block-5 {
   position: static;
-  width: auto;
+  width: 50vw;
   margin-top: 34px;
   margin-right: auto;
   margin-left: auto;
+  padding-left: 591px;
 }
 
 .image-13 {
@@ -2037,8 +2038,12 @@ figcaption {
 
 .link-block-6 {
   position: static;
-  width: 100vw;
+  width: 50vw;
   margin-top: 34px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 599px;
+  padding-left: 0px;
 }
 
 .image-14 {
@@ -2159,7 +2164,7 @@ figcaption {
   }
 
   .div-block-15 {
-    margin-left: -100px;
+    margin-left: auto;
   }
 
   .heading-9 {
@@ -2230,15 +2235,24 @@ figcaption {
     margin-top: 71px;
   }
 
+  .paragraph-bigger.cc-bigger-light {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 99px;
+    padding-left: 99px;
+  }
+
   .paragraph-bigger.cc-bigger-white-light {
     margin-right: auto;
     margin-left: auto;
     padding-right: 444px;
     padding-left: 444px;
+    text-align: center;
   }
 
   .button.cc-jumbo-button {
-    margin-left: -31px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .button.cc-jumbo-button.second-button {
@@ -2304,7 +2318,7 @@ figcaption {
   }
 
   .grid-2 {
-    margin-left: 45px;
+    margin-left: 0px;
   }
 
   .div-block-9 {
@@ -2326,6 +2340,11 @@ figcaption {
     width: 79%;
   }
 
+  .section-2 {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .div-block-15 {
     margin-left: auto;
   }
@@ -2333,6 +2352,11 @@ figcaption {
   .heading-9 {
     padding-right: 0px;
     padding-left: 0px;
+  }
+
+  .div-block-20 {
+    margin-right: 0px;
+    margin-left: auto;
   }
 
   .preloader {
@@ -2359,10 +2383,23 @@ figcaption {
 
   .link-block-5 {
     margin-top: 35px;
+    margin-right: 0px;
+    padding-left: 0px;
+  }
+
+  .image-13 {
+    margin-right: 35px;
+    margin-left: auto;
   }
 
   .link-block-6 {
     margin-top: 35px;
+    margin-left: 25px;
+    padding-right: 0px;
+  }
+
+  .image-14 {
+    margin-left: 0px;
   }
 
   .button-2 {
@@ -2378,6 +2415,11 @@ figcaption {
     flex: 0 auto;
     text-align: center;
   }
+
+  .div-block-29 {
+    margin-right: auto;
+    margin-left: 0px;
+  }
 }
 
 @media screen and (min-width: 1920px) {
@@ -2389,12 +2431,13 @@ figcaption {
     margin-top: 2px;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 689px;
-    padding-left: 689px;
+    padding-right: 662px;
+    padding-left: 662px;
+    text-align: center;
   }
 
   .button.cc-jumbo-button {
-    margin-left: -97px;
+    margin-left: auto;
   }
 
   .button.cc-contact-us {
@@ -2406,6 +2449,11 @@ figcaption {
     margin-left: auto;
     padding-right: 169px;
     padding-left: 169px;
+  }
+
+  .heading-jumbo-small {
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .intro-header.mobile {
@@ -2513,6 +2561,24 @@ figcaption {
     width: 100px;
     min-width: 500px;
     margin-left: auto;
+  }
+
+  .link-block-5 {
+    margin-right: 0px;
+    padding-left: 0px;
+  }
+
+  .image-13 {
+    margin-right: 20px;
+    margin-left: auto;
+  }
+
+  .link-block-6 {
+    margin-left: 0px;
+  }
+
+  .image-14 {
+    margin-left: 30px;
   }
 }
 
@@ -3099,7 +3165,7 @@ figcaption {
   }
 
   .image-7 {
-    margin-left: 342px;
+    margin-left: auto;
   }
 
   .process {
@@ -3265,34 +3331,40 @@ figcaption {
   }
 
   .grid-4 {
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
   }
 
   .link-block-5 {
     position: static;
-    width: 100vw;
+    width: 50vw;
     margin-top: 35px;
+    margin-right: 0px;
+    padding-left: 0px;
   }
 
   .image-13 {
     width: 5vw;
-    margin-right: auto;
+    margin-right: 42px;
     margin-left: auto;
   }
 
   .link-block-6 {
     position: static;
-    width: 100vw;
+    width: 50vw;
     margin-top: 35px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .image-14 {
     width: 5vw;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 29px;
   }
 
   .button-2 {
@@ -3763,14 +3835,17 @@ figcaption {
   }
 
   .grid-4 {
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
   }
 
   .link-block-5 {
     position: static;
-    width: 100vw;
+    width: 50vw;
     margin-top: 34px;
+    padding-left: 224px;
   }
 
   .image-13 {
@@ -3781,8 +3856,10 @@ figcaption {
 
   .link-block-6 {
     position: static;
-    width: 100vw;
+    width: 50vw;
     margin-top: 34px;
+    padding-right: 247px;
+    padding-left: 0px;
   }
 
   .image-14 {
@@ -4001,7 +4078,7 @@ figcaption {
   }
 
   .motto-wrap {
-    margin-top: 200px;
+    margin-top: -35px;
     color: #fff;
   }
 
@@ -4063,8 +4140,10 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    margin-top: 0px;
     margin-right: auto;
     margin-left: auto;
+    padding-top: 100px;
     padding-left: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -4631,20 +4710,21 @@ figcaption {
 
   .grid-4 {
     margin-top: 34px;
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-    -ms-grid-rows: auto auto auto;
-    grid-template-rows: auto auto auto;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
   }
 
   .link-block-5 {
     position: static;
-    width: 100vw;
+    width: 50vw;
     height: auto;
     margin-right: auto;
     margin-left: auto;
     padding-right: 0px;
     padding-bottom: 0px;
+    padding-left: 96px;
   }
 
   .image-13 {
@@ -4655,10 +4735,10 @@ figcaption {
 
   .link-block-6 {
     position: static;
-    width: 100vw;
-    height: 8vh;
+    width: 50vw;
+    height: 20vh;
     margin: 34px auto 0px;
-    padding-right: 0px;
+    padding-right: 127px;
     padding-bottom: 0px;
   }
 
