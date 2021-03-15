@@ -71,7 +71,10 @@ p {
 }
 
 a {
+  position: absolute;
   display: block;
+  width: 50vw;
+  padding-left: 0px;
   -webkit-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
   color: #1a1b1f;
@@ -248,8 +251,9 @@ figcaption {
 }
 
 .button.cc-jumbo-button {
+  width: 15vw;
   margin-right: -18px;
-  margin-left: 43px;
+  margin-left: -31px;
   padding: 16px 93px;
   font-size: 14px;
   line-height: 26px;
@@ -276,13 +280,16 @@ figcaption {
 }
 
 .button.cc-jumbo-button.second-button {
-  padding-right: 70px;
-  padding-left: 70px;
+  margin-right: -54px;
+  margin-left: -18px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .button.cc-contact-us {
   position: relative;
   z-index: 5;
+  width: 12vw;
   background-color: #414141;
 }
 
@@ -433,6 +440,10 @@ figcaption {
   opacity: 0.7;
 }
 
+.logo-link.logo-linkk.w--current {
+  width: 20vw;
+}
+
 .menu {
   position: absolute;
   left: 0%;
@@ -491,6 +502,7 @@ figcaption {
 }
 
 .navigation-item {
+  width: 10vw;
   padding-top: 9px;
   padding-bottom: 9px;
   opacity: 0.6;
@@ -1332,8 +1344,8 @@ figcaption {
 }
 
 .services {
-  margin: 110px 246px;
-  padding-top: 0px;
+  margin: 9px 246px 170px;
+  padding-top: 240px;
   padding-bottom: 0px;
 }
 
@@ -1793,7 +1805,9 @@ figcaption {
 
 .div-block-19 {
   display: block;
-  margin-left: -178px;
+  margin-left: -287px;
+  padding-right: 318px;
+  padding-left: 318px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1898,10 +1912,7 @@ figcaption {
 .preloader {
   position: fixed;
   z-index: 99999999999;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 100%;
   height: 100%;
   -webkit-box-orient: vertical;
@@ -1939,6 +1950,20 @@ figcaption {
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
+}
+
+.link-block-3 {
+  width: 10%;
+  height: 10%;
+  margin-left: 195px;
+  padding-right: 33px;
+  padding-left: 33px;
+}
+
+.link-block-4 {
+  width: 10vw;
+  margin-left: -102px;
+  padding-bottom: 76px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -2081,6 +2106,18 @@ figcaption {
     margin-left: -91px;
   }
 
+  .button.cc-jumbo-button {
+    margin-left: -31px;
+  }
+
+  .button.cc-jumbo-button.second-button {
+    margin-left: -65px;
+  }
+
+  .button.cc-contact-us {
+    width: 10%;
+  }
+
   .heading-jumbo.mobile {
     margin-right: -549px;
     margin-left: -92px;
@@ -2129,7 +2166,7 @@ figcaption {
   }
 
   .image-7 {
-    margin-left: 663px;
+    margin-left: 642px;
   }
 
   .grid-2 {
@@ -2154,6 +2191,10 @@ figcaption {
     width: 79%;
   }
 
+  .div-block-15 {
+    margin-left: 33px;
+  }
+
   .heading-9 {
     padding-right: 0px;
     padding-left: 0px;
@@ -2161,6 +2202,10 @@ figcaption {
 
   .background-video {
     height: 70%;
+  }
+
+  .link-block-3 {
+    margin-left: 229px;
   }
 }
 
@@ -2174,6 +2219,14 @@ figcaption {
     margin-left: -296px;
   }
 
+  .button.cc-jumbo-button {
+    margin-left: -97px;
+  }
+
+  .button.cc-contact-us {
+    width: 9%;
+  }
+
   .heading-jumbo.mobile {
     margin-right: -272px;
     margin-left: -299px;
@@ -2183,6 +2236,10 @@ figcaption {
     height: 52vh;
     margin-right: 7px;
     margin-left: 1076px;
+  }
+
+  .services {
+    margin-top: 76px;
   }
 
   .image-3 {
@@ -2226,7 +2283,7 @@ figcaption {
   }
 
   .image-7 {
-    margin-left: 901px;
+    margin-left: 781px;
   }
 
   .div-block-9 {
@@ -2252,6 +2309,14 @@ figcaption {
 
   .background-video {
     height: 70%;
+  }
+
+  .link-block-3 {
+    margin-left: 233px;
+  }
+
+  .text-block-7.text-contact {
+    margin-left: 5px;
   }
 }
 
@@ -2310,6 +2375,11 @@ figcaption {
     border-radius: 0px;
   }
 
+  .paragraph-bigger.cc-bigger-light {
+    margin-right: 4px;
+    margin-left: 4px;
+  }
+
   .paragraph-bigger.cc-bigger-white-light {
     display: -webkit-box;
     display: -webkit-flex;
@@ -2342,12 +2412,23 @@ figcaption {
     justify-content: center;
   }
 
+  .button.cc-jumbo-button {
+    margin-left: 104px;
+  }
+
+  .button.cc-jumbo-button.second-button {
+    width: 25vw;
+    margin-left: 21px;
+  }
+
   .button.cc-contact-us {
     position: relative;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    width: 20vw;
+    margin-left: -120px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -2418,7 +2499,8 @@ figcaption {
     position: relative;
     display: block;
     margin-top: 45px;
-    margin-right: 219px;
+    margin-right: 257px;
+    margin-left: -164px;
   }
 
   .menu {
@@ -2463,6 +2545,8 @@ figcaption {
 
   .menu-button {
     display: block;
+    margin-right: 58px;
+    margin-left: 0px;
     padding: 0px;
   }
 
@@ -2796,7 +2880,7 @@ figcaption {
   }
 
   .image-7 {
-    margin-left: 329px;
+    margin-left: 342px;
   }
 
   .process {
@@ -2911,7 +2995,7 @@ figcaption {
   }
 
   .preloader {
-    display: block;
+    display: none;
   }
 
   .background-video {
@@ -2960,6 +3044,11 @@ figcaption {
     line-height: 28px;
   }
 
+  .paragraph-bigger.cc-bigger-light {
+    margin-right: 65px;
+    margin-left: 65px;
+  }
+
   .paragraph-bigger.cc-bigger-white-light {
     margin-top: 180px;
     margin-right: -974px;
@@ -2969,11 +3058,23 @@ figcaption {
     text-align: center;
   }
 
+  .button.cc-jumbo-button {
+    margin-left: 155px;
+  }
+
   .button.cc-jumbo-button.second-button {
-    margin-right: -37px;
-    margin-left: 42px;
-    padding-right: 77px;
-    padding-left: 82px;
+    margin-right: 0px;
+    margin-left: 1px;
+    padding-right: 92px;
+    padding-left: 92px;
+  }
+
+  .button.cc-contact-us {
+    width: 30%;
+    margin-right: -12px;
+    margin-left: -245px;
+    padding-right: 57px;
+    padding-left: 57px;
   }
 
   .rich-text {
@@ -3002,6 +3103,11 @@ figcaption {
 
   .logo-link {
     padding-left: 0px;
+  }
+
+  .menu-icon {
+    margin-right: 298px;
+    margin-left: -75px;
   }
 
   .navigation {
@@ -3201,6 +3307,10 @@ figcaption {
     margin-left: 272px;
   }
 
+  .image-7 {
+    margin-left: 331px;
+  }
+
   .paragraph-6 {
     width: auto;
     margin-right: -421px;
@@ -3240,8 +3350,8 @@ figcaption {
   }
 
   .text-block-6 {
-    margin-right: -48px;
-    margin-left: -48px;
+    margin-right: -70px;
+    margin-left: -70px;
   }
 
   .paragraph-7 {
@@ -3257,6 +3367,30 @@ figcaption {
 
   .background-video {
     height: 45%;
+  }
+
+  .text-block-7 {
+    width: 450%;
+    height: auto;
+    margin-right: 96px;
+    margin-left: 96px;
+    padding-right: 35px;
+    padding-left: 35px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+  }
+
+  .text-block-7.text-contact {
+    margin-right: -65px;
+    margin-left: -29px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 }
 
@@ -3286,8 +3420,8 @@ figcaption {
   }
 
   .paragraph-bigger.cc-bigger-light {
-    margin-right: -18px;
-    margin-left: -18px;
+    margin-right: 148px;
+    margin-left: 148px;
   }
 
   .paragraph-bigger.cc-bigger-white-light {
@@ -3297,8 +3431,19 @@ figcaption {
     text-align: center;
   }
 
+  .button.cc-jumbo-button {
+    margin-top: -20px;
+    margin-left: -64px;
+  }
+
+  .button.cc-jumbo-button.second-button {
+    margin-top: 38px;
+    margin-left: -54px;
+  }
+
   .button.cc-contact-us {
     display: block;
+    margin-left: -33px;
   }
 
   .rich-text {
@@ -3752,7 +3897,7 @@ figcaption {
   }
 
   .preloader {
-    display: block;
+    display: none;
     width: 100%;
     height: 100%;
   }
@@ -3766,6 +3911,14 @@ figcaption {
     height: 25%;
     margin-top: 151px;
     margin-left: 8px;
+  }
+
+  .text-block-7.text-contact {
+    width: auto;
+    margin-right: -64px;
+    margin-left: -58px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }
 
