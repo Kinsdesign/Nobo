@@ -4735,10 +4735,10 @@ figcaption {
 
   .link-block-6 {
     position: static;
-    width: 50vw;
+    width: 45vw;
     height: 20vh;
-    margin: 34px auto 0px;
-    padding-right: 127px;
+    margin: 34px auto 0px 0px;
+    padding-right: 102px;
     padding-bottom: 0px;
   }
 
