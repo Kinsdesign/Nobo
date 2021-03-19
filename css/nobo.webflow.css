@@ -1968,7 +1968,7 @@ figcaption {
 .preloader {
   position: fixed;
   z-index: 99999999999;
-  display: block;
+  display: none;
   width: 100%;
   height: 100%;
   -webkit-box-orient: vertical;
