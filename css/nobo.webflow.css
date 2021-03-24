@@ -494,6 +494,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  border: 1px solid #fff;
 }
 
 .navigation-wrap {
@@ -1564,7 +1565,7 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 113px;
+  margin-top: -8px;
   margin-right: auto;
   margin-left: 60px;
   padding-top: 0px;
@@ -1783,7 +1784,7 @@ figcaption {
 }
 
 .div-block-9 {
-  margin-top: -14px;
+  margin-top: -60px;
   margin-left: 0px;
   padding-top: 0px;
   padding-right: 0px;
@@ -1791,7 +1792,7 @@ figcaption {
 
 .div-block-10 {
   display: block;
-  margin: -34px auto 0px 0px;
+  margin: -55px auto 0px 0px;
   padding-right: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1809,7 +1810,7 @@ figcaption {
 }
 
 .div-block-11 {
-  margin-top: 160px;
+  margin-top: 103px;
   margin-right: 0px;
   margin-left: auto;
   padding-top: 0px;
@@ -1837,7 +1838,7 @@ figcaption {
 }
 
 .column-3 {
-  margin-top: -70px;
+  margin-top: auto;
 }
 
 .div-block-13 {
@@ -2012,7 +2013,7 @@ figcaption {
 .preloader {
   position: fixed;
   z-index: 99999999999;
-  display: block;
+  display: none;
   width: 100%;
   height: 100%;
   -webkit-box-orient: vertical;
@@ -2359,7 +2360,8 @@ figcaption {
   }
 
   .div-block-10 {
-    margin-top: -39px;
+    margin-top: auto;
+    margin-bottom: auto;
     margin-left: 0px;
   }
 
@@ -2377,6 +2379,10 @@ figcaption {
   .image-11 {
     width: 90%;
     height: auto;
+  }
+
+  .column-2 {
+    margin-top: -58px;
   }
 
   .section-2 {
@@ -2439,7 +2445,7 @@ figcaption {
   }
 
   .preloader {
-    display: block;
+    display: none;
     background-color: #fff;
   }
 
@@ -2791,22 +2797,24 @@ figcaption {
 
   .div-block-9 {
     width: 70%;
-    margin-top: -60px;
-    margin-right: auto;
-    margin-left: 0px;
+    margin: -60px auto auto 0px;
     padding-right: 0px;
   }
 
   .div-block-10 {
     width: 71%;
-    margin-top: -68px;
+    margin-top: auto;
+    margin-bottom: auto;
     margin-left: 0px;
+    padding-top: 0px;
     padding-right: 0px;
+    padding-bottom: 0px;
   }
 
   .div-block-11 {
     width: 70%;
     margin-top: 126px;
+    margin-bottom: auto;
     margin-left: auto;
     padding-top: 0px;
     padding-left: 0px;
@@ -2815,6 +2823,13 @@ figcaption {
   .image-11 {
     width: 70%;
     height: auto;
+  }
+
+  .column-2 {
+    margin-top: -73px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .section-2 {
@@ -2841,7 +2856,7 @@ figcaption {
   }
 
   .preloader {
-    display: block;
+    display: none;
     background-color: #fff;
   }
 
@@ -2874,8 +2889,15 @@ figcaption {
   }
 
   .column-5 {
+    margin-top: auto;
+    margin-bottom: auto;
     padding-right: 10px;
     padding-left: 10px;
+  }
+
+  .column-6 {
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
   .grid-4 {
@@ -3153,6 +3175,8 @@ figcaption {
 
   .image-7 {
     margin-left: auto;
+    padding-right: 22px;
+    padding-left: 22px;
   }
 
   .process {
@@ -3213,7 +3237,7 @@ figcaption {
   }
 
   .preloader {
-    display: block;
+    display: none;
     background-color: #fff;
   }
 
@@ -3266,7 +3290,7 @@ figcaption {
   }
 
   .image-13 {
-    margin-right: 20px;
+    margin-right: 40px;
     margin-left: auto;
   }
 
@@ -3281,7 +3305,7 @@ figcaption {
   }
 
   .image-14 {
-    margin-left: 30px;
+    margin-left: 41px;
   }
 
   .button-2 {
@@ -3435,8 +3459,8 @@ figcaption {
   }
 
   .paragraph-bigger.cc-bigger-white-light.another-type {
-    width: 75vw;
-    margin-top: -63px;
+    width: 80vw;
+    margin-top: -159px;
     padding-right: 0px;
     padding-left: 0px;
   }
@@ -4221,7 +4245,7 @@ figcaption {
   }
 
   .preloader {
-    display: block;
+    display: none;
     background-color: #fff;
   }
 
@@ -4469,7 +4493,7 @@ figcaption {
     position: relative;
     z-index: 3;
     width: 100%;
-    margin-top: -543px;
+    margin-top: -495px;
     margin-left: auto;
     padding-top: 44px;
     text-align: center;
@@ -4495,7 +4519,7 @@ figcaption {
 
   .paragraph-bigger.cc-bigger-white-light.another-type {
     z-index: 3;
-    margin-top: -146px;
+    margin-top: -163px;
     margin-bottom: 0px;
     padding-right: 0px;
     padding-left: 0px;
@@ -5023,7 +5047,7 @@ figcaption {
   }
 
   .preloader {
-    display: block;
+    display: none;
     background-color: #fff;
   }
 
@@ -5227,7 +5251,7 @@ figcaption {
   }
 
   .paragraph-bigger.cc-bigger-white-light.another-type {
-    margin-top: -109px;
+    margin-top: -77px;
     margin-bottom: 0px;
     padding-right: 0px;
     padding-left: 0px;
@@ -5307,6 +5331,7 @@ figcaption {
     margin-left: auto;
     padding-right: 32px;
     padding-left: 32px;
+    border: 1px solid transparent;
     font-size: 30px;
     line-height: 50px;
   }
@@ -5330,6 +5355,7 @@ figcaption {
   }
 
   .navigation-wrap {
+    border: 1px solid #fff;
     background-color: transparent;
   }
 
@@ -5499,6 +5525,7 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    border: 1px solid transparent;
   }
 
   .heading {
@@ -5742,12 +5769,13 @@ figcaption {
   }
 
   .image-7 {
-    width: 100%;
-    min-width: 25vw;
+    width: 130px;
+    height: auto;
+    min-width: auto;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 59px;
-    padding-left: 59px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .div-block-8 {
@@ -5975,7 +6003,7 @@ figcaption {
 
   .preloader {
     position: fixed;
-    display: block;
+    display: none;
     width: 100%;
     height: 100%;
     margin-right: auto;
@@ -6132,6 +6160,7 @@ figcaption {
 
   .div-block-28 {
     margin-top: -205px;
+    border: 1px solid transparent;
   }
 
   .div-block-29 {
@@ -6157,19 +6186,25 @@ figcaption {
     padding-right: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
+    border: 1px solid transparent;
   }
 
   .section-3 {
+    border: 1px solid transparent;
     background-color: transparent;
   }
 
   .div-block-33 {
-    bottom: -6%;
-    width: 10.5vw;
-    height: 9vh;
+    bottom: -21%;
+    width: 11vw;
+    height: 25vh;
     margin-bottom: -51px;
     padding-bottom: 0px;
     border-radius: 20px;
+  }
+
+  .div-block-35 {
+    border: 0px solid transparent;
   }
 }
 
