@@ -2013,7 +2013,7 @@ figcaption {
 .preloader {
   position: fixed;
   z-index: 99999999999;
-  display: none;
+  display: block;
   width: 100%;
   height: 100%;
   -webkit-box-orient: vertical;
@@ -2202,7 +2202,7 @@ figcaption {
 .html-embed-3 {
   width: 100%;
   height: 140vh;
-  margin-top: 23px;
+  margin-top: 45px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 0px;
@@ -2445,7 +2445,7 @@ figcaption {
   }
 
   .preloader {
-    display: none;
+    display: block;
     background-color: #fff;
   }
 
@@ -2856,7 +2856,7 @@ figcaption {
   }
 
   .preloader {
-    display: none;
+    display: block;
     background-color: #fff;
   }
 
@@ -3063,6 +3063,8 @@ figcaption {
 
   .logo-image {
     width: 6vw;
+    margin-left: 4px;
+    padding-left: 0px;
   }
 
   .cta-wrap {
@@ -3185,6 +3187,7 @@ figcaption {
   }
 
   .paragraph-6 {
+    width: 99%;
     margin-right: 0px;
     margin-left: 0px;
   }
@@ -4245,7 +4248,7 @@ figcaption {
   }
 
   .preloader {
-    display: none;
+    display: block;
     background-color: #fff;
   }
 
@@ -5047,7 +5050,7 @@ figcaption {
   }
 
   .preloader {
-    display: none;
+    display: block;
     background-color: #fff;
   }
 
@@ -6003,7 +6006,7 @@ figcaption {
 
   .preloader {
     position: fixed;
-    display: none;
+    display: block;
     width: 100%;
     height: 100%;
     margin-right: auto;
@@ -6197,8 +6200,8 @@ figcaption {
   .div-block-33 {
     bottom: -21%;
     width: 11vw;
-    height: 25vh;
-    margin-bottom: -51px;
+    height: 23vh;
+    margin-bottom: -64px;
     padding-bottom: 0px;
     border-radius: 20px;
   }
