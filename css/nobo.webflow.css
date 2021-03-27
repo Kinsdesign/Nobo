@@ -4523,7 +4523,7 @@ figcaption {
 
   .paragraph-bigger.cc-bigger-white-light.another-type {
     z-index: 3;
-    margin-top: -163px;
+    margin-top: -206px;
     margin-bottom: 0px;
     padding-right: 0px;
     padding-left: 0px;
@@ -5257,7 +5257,7 @@ figcaption {
   }
 
   .paragraph-bigger.cc-bigger-white-light.another-type {
-    margin-top: -77px;
+    margin-top: -17px;
     margin-bottom: 0px;
     padding-right: 0px;
     padding-left: 0px;
@@ -5321,7 +5321,7 @@ figcaption {
   }
 
   .heading-jumbo.mobile.secondary-header {
-    top: -515px;
+    top: -536px;
     z-index: 5;
     display: block;
     margin-top: auto;
@@ -5398,8 +5398,10 @@ figcaption {
   }
 
   .logo-image {
-    width: 25vw;
+    width: 25.5vw;
     margin-top: 6px;
+    margin-left: 0px;
+    padding-left: 4px;
   }
 
   .navigation-items {
@@ -6187,7 +6189,7 @@ figcaption {
     left: -65px;
     display: block;
     width: 120vw;
-    height: 120vh;
+    height: 121vh;
     margin: -662px auto 7px;
     padding-right: 0px;
     padding-bottom: 0px;
@@ -6201,7 +6203,7 @@ figcaption {
   }
 
   .div-block-33 {
-    bottom: -23%;
+    bottom: -26%;
     width: 11vw;
     height: 16vh;
     margin-bottom: 0px;
