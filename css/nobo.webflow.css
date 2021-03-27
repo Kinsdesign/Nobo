@@ -194,7 +194,7 @@ figcaption {
   z-index: 3;
   width: 100%;
   max-width: 1140px;
-  margin: 280px auto 0px;
+  margin: 265px auto 0px;
   padding-top: 0px;
   padding-bottom: 0px;
   border: 5px solid transparent;
@@ -572,8 +572,10 @@ figcaption {
   display: block;
   width: 9vw;
   margin-top: 0px;
+  margin-left: 3px;
   padding-top: 39px;
   padding-bottom: 39px;
+  padding-left: 3px;
 }
 
 .navigation-items {
@@ -2013,7 +2015,7 @@ figcaption {
 .preloader {
   position: fixed;
   z-index: 99999999999;
-  display: block;
+  display: none;
   width: 100%;
   height: 100%;
   -webkit-box-orient: vertical;
@@ -2267,7 +2269,8 @@ figcaption {
   }
 
   .logo-image {
-    width: 9vw;
+    width: 10vw;
+    margin-left: 3px;
   }
 
   .intro-header.mobile {
@@ -3423,7 +3426,7 @@ figcaption {
     display: -ms-flexbox;
     display: flex;
     width: auto;
-    margin-top: -357px;
+    margin-top: -373px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -3550,7 +3553,7 @@ figcaption {
   }
 
   .heading-jumbo.mobile.secondary-header {
-    margin-top: -1256px;
+    margin-top: -1193px;
     margin-right: 153px;
     margin-left: 153px;
     color: #000;
@@ -4249,7 +4252,7 @@ figcaption {
   }
 
   .preloader {
-    display: block;
+    display: none;
     background-color: #fff;
   }
 
@@ -4497,7 +4500,7 @@ figcaption {
     position: relative;
     z-index: 3;
     width: 100%;
-    margin-top: -495px;
+    margin-top: -552px;
     margin-left: auto;
     padding-top: 44px;
     text-align: center;
@@ -5257,7 +5260,7 @@ figcaption {
   }
 
   .paragraph-bigger.cc-bigger-white-light.another-type {
-    margin-top: -17px;
+    margin-top: 16px;
     margin-bottom: 0px;
     padding-right: 0px;
     padding-left: 0px;
@@ -5400,8 +5403,8 @@ figcaption {
   .logo-image {
     width: 25.5vw;
     margin-top: 6px;
-    margin-left: 0px;
-    padding-left: 4px;
+    margin-left: 2px;
+    padding-left: 3px;
   }
 
   .navigation-items {
@@ -6189,7 +6192,7 @@ figcaption {
     left: -65px;
     display: block;
     width: 120vw;
-    height: 121vh;
+    height: 124vh;
     margin: -662px auto 7px;
     padding-right: 0px;
     padding-bottom: 0px;
