@@ -235,7 +235,7 @@ figcaption {
 
 .paragraph-bigger.cc-bigger-white-light.another-type {
   position: relative;
-  width: 70vw;
+  width: 80%;
   margin-top: -105px;
   margin-bottom: 0px;
   padding-right: 0px;
@@ -1802,6 +1802,7 @@ figcaption {
   margin: auto 0px;
   padding-top: 0px;
   padding-right: 0px;
+  padding-bottom: 20px;
 }
 
 .div-block-10 {
@@ -1810,7 +1811,7 @@ figcaption {
   width: 500px;
   height: 30vh;
   margin: auto 0px;
-  padding-top: 20px;
+  padding-top: 0px;
   padding-right: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1830,8 +1831,8 @@ figcaption {
 .div-block-11 {
   width: 500px;
   margin: auto 0px auto auto;
-  padding-top: 80px;
-  padding-bottom: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 0px;
 }
 
@@ -1858,7 +1859,7 @@ figcaption {
 }
 
 .column-3 {
-  margin-top: 44px;
+  margin-top: 10px;
   padding-left: 0px;
 }
 
@@ -2135,14 +2136,14 @@ figcaption {
 }
 
 .column-5 {
-  margin-top: 65px;
+  margin-top: 100px;
   margin-bottom: 0px;
   padding-right: 10px;
   padding-left: 0px;
 }
 
 .column-6 {
-  margin-top: 44px;
+  margin-top: 25px;
 }
 
 .grid-4 {
@@ -2272,6 +2273,7 @@ figcaption {
   }
 
   .paragraph-bigger.cc-bigger-white-light.another-type {
+    width: 50%;
     margin-top: 8px;
   }
 
@@ -2657,6 +2659,7 @@ figcaption {
   }
 
   .paragraph-bigger.cc-bigger-white-light.another-type {
+    width: 90%;
     margin-top: -14px;
     padding-right: 18px;
     padding-left: 18px;
@@ -3100,6 +3103,7 @@ figcaption {
   }
 
   .paragraph-bigger.cc-bigger-white-light.another-type {
+    width: 85%;
     margin-top: -19px;
     padding-right: 172px;
     padding-left: 172px;
