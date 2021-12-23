@@ -190,9 +190,11 @@ figcaption {
 }
 
 .about {
+  position: relative;
+  z-index: 3;
   width: 100%;
   max-width: 1140px;
-  margin: 174px auto 0px;
+  margin: 340px auto 0px;
   padding-top: 0px;
   padding-bottom: 0px;
   border: 5px solid transparent;
@@ -233,10 +235,11 @@ figcaption {
 
 .paragraph-bigger.cc-bigger-white-light.another-type {
   position: relative;
-  margin-top: -388px;
+  width: 80%;
+  margin-top: -105px;
   margin-bottom: 0px;
-  padding-right: 345px;
-  padding-left: 345px;
+  padding-right: 0px;
+  padding-left: 0px;
   color: #000;
 }
 
@@ -401,19 +404,19 @@ figcaption {
 
 .heading-jumbo.mobile.secondary-header {
   position: relative;
-  margin-top: -955px;
+  margin-top: -459px;
   margin-right: auto;
   margin-left: auto;
-  padding-bottom: 460px;
+  padding-bottom: 0px;
+  background-color: #fff;
   color: #000;
   font-size: 33px;
   line-height: 40px;
 }
 
 .heading-jumbo-small {
-  margin: 0px 312px 15px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  margin: 0px auto 15px;
+  padding: 100px 232px;
   color: #000;
   font-size: 36px;
   line-height: 50px;
@@ -492,6 +495,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  border: 1px solid #fff;
 }
 
 .navigation-wrap {
@@ -567,10 +571,12 @@ figcaption {
 
 .logo-image {
   display: block;
-  width: 12vw;
+  width: 9vw;
   margin-top: 0px;
+  margin-left: 3px;
   padding-top: 39px;
   padding-bottom: 39px;
+  padding-left: 3px;
 }
 
 .navigation-items {
@@ -1386,9 +1392,8 @@ figcaption {
 }
 
 .services {
-  margin: -227px 246px 100px;
-  padding-top: 230px;
-  padding-bottom: 0px;
+  margin: -227px auto 100px;
+  padding: 230px 177px 0px;
 }
 
 .div-block {
@@ -1404,6 +1409,8 @@ figcaption {
 }
 
 .heading {
+  margin-right: auto;
+  margin-left: auto;
   color: #000;
   text-align: center;
 }
@@ -1414,7 +1421,7 @@ figcaption {
 
 .div-block-4 {
   width: auto;
-  height: 50vh;
+  height: auto;
   margin-bottom: 0px;
   margin-left: 0px;
   padding-right: 0px;
@@ -1512,36 +1519,45 @@ figcaption {
 
 .heading-4 {
   display: block;
-  margin-right: -72px;
-  margin-left: -392px;
+  margin-right: auto;
+  margin-left: 0px;
   padding-right: 0px;
   color: #000;
 }
 
 .paragraph-3 {
-  margin-right: 92px;
-  margin-left: -598px;
-  padding-right: 0px;
+  display: block;
+  margin-right: auto;
+  margin-left: 0px;
+  padding-right: 10px;
   padding-left: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   color: #000;
   line-height: 28px;
+  -o-object-fit: fill;
+  object-fit: fill;
 }
 
 .image-4 {
-  width: auto;
+  width: 490.0000305175781px;
   height: 37vh;
+  min-width: 490px;
   margin-top: 57px;
-  margin-right: 0px;
-  margin-left: 58px;
+  margin-right: auto;
+  margin-left: 0px;
   padding-right: 0px;
   padding-left: 0px;
   text-align: left;
 }
 
 .heading-5 {
-  margin-right: 248px;
+  margin-right: auto;
   margin-bottom: 78px;
-  margin-left: 248px;
+  margin-left: auto;
   padding-right: 102px;
   padding-left: 102px;
   color: #000;
@@ -1553,11 +1569,11 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 44px;
-  margin-right: 0px;
-  margin-left: 442px;
+  width: 500px;
+  margin: auto 0px auto auto;
   padding-top: 0px;
-  padding-right: 232px;
+  padding-right: 0px;
+  padding-left: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1567,10 +1583,10 @@ figcaption {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   grid-auto-columns: 1fr;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
@@ -1579,29 +1595,33 @@ figcaption {
 }
 
 .column {
+  padding-right: 10px;
   padding-left: 0px;
 }
 
 .div-block-6 {
+  display: block;
   width: 100%;
   height: 50.43323174185718%;
   margin-right: 0px;
-  margin-left: 0px;
+  margin-left: auto;
   padding-right: 0px;
   padding-left: 0px;
 }
 
 .div-block-6.extra-image {
   position: absolute;
+  display: none;
   width: 0%;
   height: 0%;
 }
 
 .image-5 {
-  width: 79%;
+  width: 500px;
   height: 37vh;
-  margin-right: 13px;
-  margin-left: 64px;
+  min-width: 490px;
+  margin-right: 0px;
+  margin-left: auto;
   padding-right: 0px;
   padding-left: 0px;
 }
@@ -1615,33 +1635,50 @@ figcaption {
 }
 
 .paragraph-5 {
-  margin-right: -386px;
-  margin-left: -111px;
+  width: auto;
+  height: auto;
+  margin-right: 0px;
+  margin-left: 0px;
   padding-right: 0px;
   color: #000;
 }
 
+.paragraph-5.extra-paragraph {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  padding-right: 35px;
+  -o-object-fit: none;
+  object-fit: none;
+}
+
 .heading-6 {
-  margin-top: 100px;
-  margin-left: -116px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: 0px;
   color: #000;
 }
 
 .columns {
   margin-top: 60px;
+  margin-right: auto;
+  margin-left: auto;
   padding-bottom: 0px;
 }
 
 .heading-7 {
-  margin-top: 97px;
-  margin-left: -600px;
+  margin-top: 0px;
+  margin-left: auto;
   padding-left: 0px;
   color: #000;
 }
 
 .heading-8 {
-  margin-top: 153px;
-  margin-left: -114px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: 0px;
   color: #000;
 }
 
@@ -1703,6 +1740,10 @@ figcaption {
 }
 
 .grid-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1748,26 +1789,30 @@ figcaption {
 }
 
 .paragraph-6 {
-  margin-right: -178px;
-  margin-left: -389px;
-  padding-right: 125px;
+  margin-right: auto;
+  margin-left: 0px;
+  padding-right: 0px;
   padding-left: 0px;
   color: #000;
 }
 
 .div-block-9 {
-  margin-top: -62px;
-  margin-left: 77px;
+  width: 500px;
+  height: 28vh;
+  margin: auto 0px;
   padding-top: 0px;
-  padding-right: 398px;
+  padding-right: 0px;
+  padding-bottom: 20px;
 }
 
 .div-block-10 {
+  position: relative;
   display: block;
-  margin-top: -55px;
-  margin-bottom: 0px;
-  margin-left: 76px;
-  padding-right: 404px;
+  width: 500px;
+  height: 30vh;
+  margin: auto 0px;
+  padding-top: 0px;
+  padding-right: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1784,30 +1829,38 @@ figcaption {
 }
 
 .div-block-11 {
-  margin-top: 0px;
-  margin-left: 652px;
-  padding-top: 8px;
+  width: 500px;
+  margin: auto 0px auto auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
 }
 
 .div-block-12 {
-  margin-right: 0px;
+  margin-right: 60px;
   margin-left: 0px;
   padding-right: 0px;
   padding-left: 0px;
 }
 
 .image-11 {
-  width: 90%;
+  position: static;
+  width: 500vw;
   height: 37vh;
-  margin-left: 3px;
+  min-width: 490px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 .column-2 {
-  margin-top: -48px;
+  margin-top: 37px;
+  padding-right: 0px;
+  padding-left: 10px;
 }
 
 .column-3 {
-  margin-top: -70px;
+  margin-top: 10px;
+  padding-left: 0px;
 }
 
 .div-block-13 {
@@ -1892,9 +1945,9 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-right: -58px;
-  margin-bottom: -221px;
-  margin-left: -58px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -1940,6 +1993,15 @@ figcaption {
   margin-bottom: -231px;
 }
 
+.column-4 {
+  padding-right: 10px;
+}
+
+.columns-2 {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .div-block-22 {
   margin-top: -77px;
 }
@@ -1952,6 +2014,11 @@ figcaption {
 .div-block-24 {
   margin-top: 3px;
   margin-left: 71px;
+}
+
+.columns-3 {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .html-embed {
@@ -1987,7 +2054,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #0e0e0e;
+  background-color: #fff;
   opacity: 1;
   -o-object-fit: fill;
   object-fit: fill;
@@ -2014,6 +2081,8 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  width: 80%;
+  height: 70%;
   margin: 145px auto auto;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -2062,6 +2131,21 @@ figcaption {
   padding-left: 0px;
 }
 
+.div-block-27 {
+  margin-right: 60px;
+}
+
+.column-5 {
+  margin-top: 100px;
+  margin-bottom: 0px;
+  padding-right: 10px;
+  padding-left: 0px;
+}
+
+.column-6 {
+  margin-top: 25px;
+}
+
 .grid-4 {
   margin-bottom: 0px;
   -ms-grid-columns: 1fr 1fr;
@@ -2073,34 +2157,34 @@ figcaption {
 .link-block-5 {
   position: static;
   width: 50vw;
-  height: 3vh;
+  height: auto;
   margin-top: 34px;
   margin-right: auto;
   margin-left: auto;
-  padding-left: 433px;
+  padding-left: 0px;
 }
 
 .image-13 {
   width: 3vw;
   min-width: 0px;
-  margin-right: auto;
+  margin-right: 20px;
   margin-left: auto;
 }
 
 .link-block-6 {
   position: static;
-  width: 50vw;
+  width: 45vw;
   margin-top: 34px;
   margin-right: auto;
-  margin-left: auto;
-  padding-right: 457px;
+  margin-left: 0px;
+  padding-right: 0px;
   padding-left: 0px;
 }
 
 .image-14 {
   width: 3vw;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: 12px;
 }
 
 .button-2 {
@@ -2108,13 +2192,25 @@ figcaption {
   top: 30%;
   right: 0%;
   bottom: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 10vw;
   margin-right: auto;
   margin-left: auto;
   padding-right: 0px;
-  padding-left: 7px;
-  border-radius: 10px;
-  background-color: #414141;
+  padding-left: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 15px;
+  background-color: #000;
 }
 
 .div-block-28 {
@@ -2133,8 +2229,8 @@ figcaption {
 
 .html-embed-3 {
   width: 100%;
-  height: 120vh;
-  margin-top: 322px;
+  height: 142vh;
+  margin-top: 149px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 0px;
@@ -2149,9 +2245,23 @@ figcaption {
   margin-left: auto;
 }
 
+.div-block-33 {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  width: 10vw;
+  margin-top: 0px;
+  margin-bottom: -176px;
+  margin-left: auto;
+  padding-bottom: 240px;
+  background-color: #fff;
+}
+
 @media screen and (min-width: 1280px) {
   .about {
-    margin-top: 161px;
+    margin-top: 225px;
   }
 
   .paragraph-bigger.cc-bigger-white-light {
@@ -2163,7 +2273,8 @@ figcaption {
   }
 
   .paragraph-bigger.cc-bigger-white-light.another-type {
-    margin-top: -480px;
+    width: 50%;
+    margin-top: 8px;
   }
 
   .heading-jumbo.mobile {
@@ -2181,7 +2292,12 @@ figcaption {
   }
 
   .heading-jumbo.mobile.secondary-header {
-    margin-top: -859px;
+    margin-top: -453px;
+  }
+
+  .logo-image {
+    width: 10vw;
+    margin-left: 3px;
   }
 
   .intro-header.mobile {
@@ -2198,6 +2314,7 @@ figcaption {
   }
 
   .div-block-4 {
+    height: auto;
     margin-left: 0px;
   }
 
@@ -2216,55 +2333,110 @@ figcaption {
   }
 
   .paragraph-3 {
-    margin-right: 59px;
+    margin-right: 0px;
+    margin-left: auto;
+    padding-right: 0px;
   }
 
   .image-4 {
-    width: 90%;
-    margin-left: 3px;
+    width: 558px;
+    margin-left: 0px;
+  }
+
+  .heading-5 {
+    margin-top: 173px;
   }
 
   .div-block-5 {
-    margin-top: 66px;
-    margin-right: -84px;
-    margin-left: 442px;
-    padding-right: 218px;
+    width: 500px;
+    margin: auto 0px auto auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+  }
+
+  .column {
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
   .image-5 {
-    width: 90%;
+    width: 558px;
+    height: auto;
+    margin-left: auto;
   }
 
   .paragraph-5 {
-    margin-right: -373px;
+    width: 90%;
+    margin-right: auto;
+    padding-right: 0px;
   }
 
   .paragraph-5.extra-paragraph {
-    margin-right: -400px;
+    width: 500px;
+    margin-right: auto;
+    padding-right: 0px;
+  }
+
+  .heading-6 {
+    margin-top: 0px;
+  }
+
+  .heading-7 {
+    margin-top: 0px;
+  }
+
+  .heading-8 {
+    margin-top: 0px;
   }
 
   .paragraph-6 {
-    margin-right: -271px;
+    margin-right: auto;
   }
 
   .div-block-9 {
-    margin-top: -57px;
-    margin-right: 60px;
-    margin-left: 115px;
-    padding-right: 373px;
+    width: 500px;
+    margin: auto auto auto 0px;
+    padding-top: 10px;
+    padding-right: 0px;
   }
 
   .div-block-10 {
-    margin-top: -39px;
-    margin-left: 116px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 0px;
   }
 
   .div-block-11 {
-    padding-top: 30px;
+    width: 500px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 90px;
+    padding-bottom: 80px;
+    padding-left: 0px;
+  }
+
+  .div-block-12 {
+    margin-right: 0px;
   }
 
   .image-11 {
-    width: 90%;
+    width: 558px;
+    height: auto;
+  }
+
+  .column-2 {
+    margin-top: 39px;
+  }
+
+  .column-3 {
+    margin-top: 0px;
+  }
+
+  .section-2 {
+    padding-bottom: 0px;
   }
 
   .div-block-15 {
@@ -2287,7 +2459,7 @@ figcaption {
   }
 
   .grid-3 {
-    margin-bottom: -326px;
+    margin-bottom: 0px;
     -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around;
@@ -2323,7 +2495,13 @@ figcaption {
   }
 
   .preloader {
-    display: block;
+    display: none;
+    background-color: #fff;
+  }
+
+  .background-video.video {
+    width: 80%;
+    height: 80%;
   }
 
   .text-block-7.text-contact {
@@ -2335,8 +2513,106 @@ figcaption {
     margin-left: auto;
   }
 
+  .div-block-27 {
+    margin-right: 0px;
+  }
+
+  .column-5 {
+    margin-top: 55px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .column-6 {
+    margin-top: 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
   .grid-4 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
     padding-bottom: 99px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    justify-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+  }
+
+  .link-block-5 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 45vw;
+    height: auto;
+    margin-right: 0px;
+    padding-right: 12px;
+    padding-left: 0px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+  }
+
+  .image-13 {
+    margin-right: 0px;
+  }
+
+  .link-block-6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 45vw;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 20px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .image-14 {
+    margin-left: 0px;
+  }
+
+  .button-2 {
+    background-color: #000;
   }
 
   .div-block-28 {
@@ -2347,9 +2623,14 @@ figcaption {
 
   .html-embed-3 {
     height: 110vh;
-    margin-top: 296px;
+    margin-top: 259px;
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+  .div-block-33 {
+    left: auto;
+    width: 25vw;
   }
 }
 
@@ -2359,7 +2640,7 @@ figcaption {
   }
 
   .about {
-    margin-top: 193px;
+    margin-top: 364px;
   }
 
   .paragraph-bigger.cc-bigger-light {
@@ -2378,9 +2659,10 @@ figcaption {
   }
 
   .paragraph-bigger.cc-bigger-white-light.another-type {
-    margin-top: -384px;
-    padding-right: 445px;
-    padding-left: 445px;
+    width: 90%;
+    margin-top: -14px;
+    padding-right: 18px;
+    padding-left: 18px;
   }
 
   .button.cc-jumbo-button {
@@ -2425,7 +2707,7 @@ figcaption {
 
   .heading-jumbo.mobile.secondary-header {
     width: 100vw;
-    margin-top: -824px;
+    margin-top: -442px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 125px;
@@ -2442,8 +2724,11 @@ figcaption {
   }
 
   .heading-jumbo-small {
-    margin-right: 434px;
-    margin-left: 434px;
+    width: 60vw;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 51px;
+    padding-left: 51px;
     text-align: center;
   }
 
@@ -2459,6 +2744,10 @@ figcaption {
     text-align: center;
   }
 
+  .logo-image {
+    width: 8vw;
+  }
+
   .navigation-items {
     margin-right: auto;
     margin-left: auto;
@@ -2472,6 +2761,10 @@ figcaption {
     padding-left: 0px;
   }
 
+  .div-block-4 {
+    height: auto;
+  }
+
   .image-3 {
     width: auto;
     margin-left: 281px;
@@ -2479,18 +2772,49 @@ figcaption {
     padding-left: 19px;
   }
 
+  .paragraph-3 {
+    margin-right: 0px;
+    margin-left: auto;
+    padding-right: 0px;
+  }
+
   .image-4 {
-    width: 79%;
+    width: 490px;
+    height: auto;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .heading-5 {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .div-block-5 {
-    margin-left: 528px;
+    width: 500px;
+    margin: auto 0px auto auto;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+
+  .column {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .div-block-6 {
+    width: auto;
+    height: auto;
   }
 
   .image-5 {
-    width: 79%;
+    width: 490px;
+    height: auto;
     margin-right: 0px;
-    margin-left: 149px;
+    margin-left: auto;
   }
 
   .image-5.extra-image-2 {
@@ -2499,7 +2823,33 @@ figcaption {
   }
 
   .paragraph-5 {
-    margin-right: -370px;
+    width: 91%;
+    height: auto;
+    margin-right: auto;
+    padding-right: 0px;
+  }
+
+  .paragraph-5.extra-paragraph {
+    width: auto;
+    margin-right: auto;
+    padding-right: 0px;
+  }
+
+  .heading-6 {
+    width: 490.0000305175781px;
+    margin-top: 0px;
+  }
+
+  .columns {
+    margin-top: 40px;
+  }
+
+  .heading-7 {
+    margin-top: 0px;
+  }
+
+  .heading-8 {
+    margin-top: auto;
   }
 
   .image-6 {
@@ -2513,31 +2863,62 @@ figcaption {
   }
 
   .process {
-    margin-top: 192px;
+    margin-top: 170px;
   }
 
   .grid-2 {
     margin-left: 0px;
   }
 
+  .paragraph-6 {
+    width: 102%;
+    margin-right: auto;
+  }
+
   .div-block-9 {
-    margin-top: -48px;
-    padding-right: 481px;
+    width: 500px;
+    margin: auto auto auto 0px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 20px;
   }
 
   .div-block-10 {
-    margin-top: -50px;
-    margin-left: 114px;
-    padding-right: 551px;
+    position: static;
+    width: 500px;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0px;
+    padding-top: 30px;
+    padding-right: 0px;
+    padding-bottom: 30px;
   }
 
   .div-block-11 {
-    margin-left: 738px;
-    padding-top: 42px;
+    position: relative;
+    top: auto;
+    width: 500px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 0px;
+    text-align: left;
   }
 
   .image-11 {
-    width: 79%;
+    width: 490px;
+    height: auto;
+  }
+
+  .column-2 {
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .section-2 {
@@ -2560,15 +2941,25 @@ figcaption {
   }
 
   .grid-3 {
-    margin-bottom: -403px;
+    margin-bottom: 0px;
+  }
+
+  .columns-3 {
+    margin-top: 40px;
   }
 
   .preloader {
-    display: block;
+    display: none;
+    background-color: #fff;
   }
 
   .background-video {
     height: 70%;
+  }
+
+  .background-video.video {
+    width: 80%;
+    height: 80%;
   }
 
   .link-block-3 {
@@ -2586,30 +2977,53 @@ figcaption {
     margin-left: auto;
   }
 
+  .div-block-27 {
+    margin-right: auto;
+  }
+
+  .column-5 {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+  }
+
+  .column-6 {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
   .grid-4 {
     margin-bottom: -59px;
     padding-bottom: 112px;
   }
 
   .link-block-5 {
+    height: auto;
     margin-top: 35px;
     margin-right: 0px;
+    padding-right: 0px;
     padding-left: 0px;
   }
 
   .image-13 {
-    margin-right: 35px;
+    margin-right: 12px;
     margin-left: auto;
   }
 
   .link-block-6 {
+    width: 45vw;
     margin-top: 35px;
-    margin-left: 25px;
+    margin-left: 0px;
     padding-right: 0px;
+    padding-left: 0px;
   }
 
   .image-14 {
-    margin-left: 0px;
+    margin-left: 16px;
   }
 
   .button-2 {
@@ -2623,6 +3037,8 @@ figcaption {
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto;
+    background-color: #000;
+    color: #fff;
     text-align: center;
   }
 
@@ -2638,29 +3054,45 @@ figcaption {
   }
 
   .html-embed-3 {
-    height: 110vh;
-    margin-top: -288px;
+    height: 115vh;
+    margin-top: -180px;
     padding-top: 0px;
     padding-bottom: 43px;
+  }
+
+  .div-block-33 {
+    left: auto;
+    width: 20vw;
   }
 }
 
 @media screen and (min-width: 1920px) {
   .divider {
     height: 2px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .section {
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .section.cc-cta {
+    margin-right: auto;
+    margin-left: auto;
     padding-bottom: 0px;
   }
 
   .section.cc-store-home-wrap {
+    margin-right: auto;
+    margin-left: auto;
     background-color: #fff;
     color: #fff;
   }
 
   .about {
-    margin-top: 171px;
+    margin-top: 240px;
   }
 
   .paragraph-bigger.cc-bigger-white-light {
@@ -2671,9 +3103,10 @@ figcaption {
   }
 
   .paragraph-bigger.cc-bigger-white-light.another-type {
-    margin-top: -407px;
-    padding-right: 658px;
-    padding-left: 658px;
+    width: 85%;
+    margin-top: -19px;
+    padding-right: 172px;
+    padding-left: 172px;
   }
 
   .button.cc-jumbo-button {
@@ -2698,7 +3131,7 @@ figcaption {
     right: 0%;
     bottom: auto;
     display: block;
-    margin-top: -916px;
+    margin-top: -461px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 0px;
@@ -2715,14 +3148,23 @@ figcaption {
   }
 
   .heading-jumbo-small {
+    width: 100vw;
     margin-top: 71px;
     margin-right: auto;
     margin-left: auto;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .menu {
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .logo-image {
+    width: 6vw;
+    margin-left: 4px;
+    padding-left: 3px;
   }
 
   .cta-wrap {
@@ -2743,11 +3185,20 @@ figcaption {
   }
 
   .services {
-    margin-top: -102px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 237px;
+    padding-left: 237px;
   }
 
   .heading {
     margin-top: -99px;
+  }
+
+  .div-block-4 {
+    height: auto;
   }
 
   .image-3 {
@@ -2756,25 +3207,54 @@ figcaption {
   }
 
   .body {
+    margin-right: auto;
+    margin-left: auto;
     background-color: #fff;
   }
 
+  .heading-4 {
+    margin-right: auto;
+    margin-left: 0px;
+  }
+
   .paragraph-3 {
-    margin-right: -28px;
+    margin-right: 0px;
+    padding-right: 0px;
   }
 
   .image-4 {
-    width: 70%;
-    margin-left: 46px;
+    width: 658px;
+    margin-left: 0px;
+  }
+
+  .heading-5 {
+    width: 100%;
+    padding-right: 125px;
+    padding-left: 125px;
   }
 
   .div-block-5 {
-    margin-left: 620px;
+    width: 505px;
+    margin: auto 0px auto auto;
+    padding-top: 70px;
+    padding-right: 0px;
+    padding-bottom: 70px;
+  }
+
+  .column {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .div-block-6 {
+    width: auto;
+    height: auto;
   }
 
   .image-5 {
-    width: 70%;
-    margin-left: 242px;
+    width: 658px;
+    height: auto;
+    margin-left: auto;
   }
 
   .image-5.extra-image-2 {
@@ -2783,11 +3263,14 @@ figcaption {
   }
 
   .paragraph-5 {
-    margin-right: -369px;
+    width: auto;
+    margin-right: auto;
+    padding-right: 0px;
   }
 
   .paragraph-5.extra-paragraph {
-    margin-right: -334px;
+    margin-right: auto;
+    padding-right: 0px;
   }
 
   .image-6 {
@@ -2795,52 +3278,95 @@ figcaption {
   }
 
   .image-7 {
-    margin-left: 781px;
+    margin-left: auto;
+    padding-right: 22px;
+    padding-left: 22px;
   }
 
   .process {
-    margin-top: 271px;
-  }
-
-  .div-block-9 {
-    margin-top: -35px;
-    margin-right: 559px;
-    padding-right: 0px;
-  }
-
-  .div-block-10 {
-    margin-top: -64px;
-    padding-right: 579px;
-  }
-
-  .div-block-11 {
-    margin-left: 824px;
-    padding-top: 44px;
-  }
-
-  .image-11 {
-    width: 70%;
-    margin-left: 46px;
-  }
-
-  .column-2 {
+    height: auto;
     margin-top: 0px;
   }
 
+  .paragraph-6 {
+    width: 99%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .div-block-9 {
+    width: 500px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: 0px;
+    padding-top: 120px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+
+  .div-block-10 {
+    width: 500px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0px;
+    padding-top: 100px;
+    padding-right: 0px;
+  }
+
+  .div-block-11 {
+    width: 500px;
+    margin-top: auto;
+    margin-left: auto;
+    padding-top: 120px;
+    padding-bottom: 110px;
+    padding-left: 0px;
+  }
+
+  .div-block-12 {
+    margin-right: auto;
+  }
+
+  .image-11 {
+    width: 658px;
+    height: auto;
+    margin-left: 0px;
+  }
+
+  .column-2 {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
   .div-block-15 {
-    margin-left: 34px;
+    margin-left: auto;
+    padding-right: 89px;
+    padding-left: 89px;
   }
 
   .grid-3 {
-    margin-bottom: -531px;
+    margin-bottom: 0px;
+  }
+
+  .columns-3 {
+    margin-top: 40px;
   }
 
   .preloader {
-    display: block;
+    display: none;
+    background-color: #fff;
+  }
+
+  .html-embed-2 {
+    display: none;
   }
 
   .background-video {
     height: 70%;
+  }
+
+  .background-video.video {
+    width: 80%;
+    height: 80%;
   }
 
   .link-block-3 {
@@ -2858,33 +3384,55 @@ figcaption {
   .image-12 {
     display: none;
     width: 100px;
-    min-width: 500px;
+    min-width: auto;
     margin-left: auto;
   }
 
+  .div-block-27 {
+    margin-right: auto;
+  }
+
+  .column-5 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .column-6 {
+    padding-top: 0px;
+    padding-bottom: 150px;
+  }
+
   .link-block-5 {
+    width: 40vw;
+    height: auto;
     margin-right: 0px;
     padding-left: 0px;
   }
 
   .image-13 {
-    margin-right: 20px;
+    margin-right: 40px;
     margin-left: auto;
   }
 
   .link-block-6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 40vw;
+    margin-right: auto;
     margin-left: 0px;
   }
 
   .image-14 {
-    margin-left: 30px;
+    margin-left: 41px;
   }
 
   .button-2 {
     width: 8vw;
-    padding-right: 17px;
-    background-color: #919191;
-    color: #141416;
+    padding-right: 0px;
+    background-color: #000;
+    color: #fff;
     font-weight: 400;
   }
 
@@ -2897,7 +3445,7 @@ figcaption {
     width: 100vw;
     height: 100vh;
     min-height: auto;
-    margin-top: -166px;
+    margin-top: -182px;
     margin-right: auto;
     margin-left: auto;
     padding-top: 0px;
@@ -2916,6 +3464,29 @@ figcaption {
     padding: 59px 0px;
     background-color: #fff;
   }
+
+  .div-block-33 {
+    position: absolute;
+    left: 0px;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    z-index: 4;
+    display: block;
+    width: 25vw;
+    max-width: none;
+    min-width: auto;
+    margin-top: 0px;
+    margin-bottom: -76px;
+    margin-left: auto;
+    padding-bottom: 158px;
+    padding-left: 0px;
+  }
+
+  .div-block-35 {
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -2925,14 +3496,14 @@ figcaption {
   }
 
   .section {
-    margin-top: 114px;
+    margin-top: 0px;
     margin-right: 0px;
     margin-left: 0px;
     text-align: center;
   }
 
   .section.cc-cta {
-    margin-top: 444px;
+    margin-top: 100px;
     padding-right: 0px;
     padding-left: 0px;
   }
@@ -2967,7 +3538,8 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-top: -354px;
+    width: auto;
+    margin-top: -345px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -3007,9 +3579,10 @@ figcaption {
   }
 
   .paragraph-bigger.cc-bigger-white-light.another-type {
-    margin-top: -1159px;
-    padding-right: 109px;
-    padding-left: 109px;
+    width: 80vw;
+    margin-top: -140px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .button {
@@ -3093,7 +3666,7 @@ figcaption {
   }
 
   .heading-jumbo.mobile.secondary-header {
-    margin-top: -896px;
+    margin-top: -1219px;
     margin-right: 153px;
     margin-left: 153px;
     color: #000;
@@ -3103,9 +3676,11 @@ figcaption {
 
   .heading-jumbo-small {
     margin-top: 89px;
-    margin-right: 115px;
-    margin-left: 115px;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 0px;
+    padding-right: 147px;
+    padding-left: 147px;
   }
 
   .logo-link.w--current {
@@ -3177,6 +3752,10 @@ figcaption {
 
   .menu-button.w--open {
     background-color: transparent;
+  }
+
+  .logo-image {
+    width: 12vw;
   }
 
   .navigation-items {
@@ -3366,7 +3945,7 @@ figcaption {
   }
 
   .services {
-    margin-top: 10px;
+    margin-top: -60px;
     padding-top: 50px;
   }
 
@@ -3384,44 +3963,76 @@ figcaption {
   }
 
   .heading-4 {
-    margin-right: 0px;
-    margin-left: 200px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     text-align: center;
   }
 
   .paragraph-3 {
-    margin-right: -287px;
-    margin-left: 0px;
-    padding-right: 26px;
-    padding-left: 26px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 9px;
+    padding-left: 9px;
     text-align: center;
   }
 
   .image-4 {
-    width: 100%;
-    min-width: 500px;
-    margin-top: 20px;
-    margin-right: 13px;
-    margin-left: 32px;
+    width: 70vw;
+    max-width: 70vw;
+    min-width: 70vw;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .heading-5 {
-    margin-right: 0px;
-    margin-left: 0px;
+    margin-right: auto;
+    margin-bottom: 11px;
+    margin-left: auto;
     padding-right: 105px;
     padding-left: 105px;
   }
 
   .div-block-5 {
-    margin-left: 0px;
-    padding-right: 0px;
-  }
-
-  .column {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .column {
+    display: none;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -3430,59 +4041,100 @@ figcaption {
   }
 
   .div-block-6 {
-    position: absolute;
+    position: static;
     display: block;
-    width: 0%;
-    height: 0%;
-    -webkit-box-orient: horizontal;
+    width: auto;
+    height: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
     -o-object-fit: fill;
     object-fit: fill;
   }
 
   .div-block-6.extra-image {
     position: static;
-    width: 100%;
-    height: 100%;
+    display: block;
+    width: auto;
+    height: auto;
+    margin-right: 0px;
+    margin-left: 0px;
   }
 
   .image-5 {
     position: absolute;
     width: 0%;
     height: 0vh;
-    min-width: 500px;
+    min-width: auto;
   }
 
   .image-5.extra-image {
     position: relative;
-    width: 100%;
+    width: 70vw;
     height: 37vh;
-    margin-top: 20px;
-    margin-left: 32px;
+    min-width: 0px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .image-5.extra-image-2 {
+    position: static;
     display: block;
-    width: 100%;
+    width: 70vw;
     height: 37vh;
-    margin-top: 20px;
-    margin-left: 32px;
+    min-width: 0px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .paragraph-5 {
-    margin-right: -297px;
-    margin-left: 0px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
     padding-right: 25px;
     padding-left: 25px;
     text-align: center;
   }
 
+  .paragraph-5.extra-paragraph {
+    height: auto;
+  }
+
   .heading-6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     margin-top: 10px;
-    margin-left: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .columns {
@@ -3502,16 +4154,52 @@ figcaption {
   }
 
   .heading-7 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     margin-top: 10px;
-    margin-left: 180px;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 0px;
+    padding-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .heading-8 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     margin-top: 10px;
     margin-right: 0px;
-    margin-left: 200px;
+    margin-left: auto;
     padding-top: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .image-6 {
@@ -3534,8 +4222,10 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-right: 92px;
-    margin-left: 92px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 92px;
+    padding-left: 92px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -3544,19 +4234,52 @@ figcaption {
   }
 
   .paragraph-6 {
-    margin-right: -287px;
-    margin-left: 0px;
-    padding-right: 0px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80vw;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 25px;
+    padding-left: 25px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     text-align: center;
   }
 
   .div-block-9 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     margin-top: 92px;
-    margin-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
     padding-right: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .div-block-10 {
+    height: auto;
     margin-top: 92px;
     margin-left: 0px;
     padding-right: 0px;
@@ -3565,17 +4288,24 @@ figcaption {
 
   .div-block-11 {
     margin-top: 92px;
-    margin-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 0px;
+    padding-left: 0px;
+  }
+
+  .div-block-12 {
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .image-11 {
     position: relative;
-    width: 100%;
-    min-width: 500px;
-    margin-top: 320px;
-    margin-right: 36px;
-    margin-left: -261px;
+    width: 70vw;
+    min-width: 0px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
     padding-right: 0px;
     padding-left: 0px;
     -o-object-fit: fill;
@@ -3588,23 +4318,40 @@ figcaption {
     display: -ms-flexbox;
     display: flex;
     margin-top: 0px;
+    padding-left: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .column-3 {
     display: block;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
     grid-auto-columns: 1fr;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     -ms-grid-rows: auto auto;
     grid-template-rows: auto auto;
+  }
+
+  .div-block-15 {
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .div-block-19 {
@@ -3617,7 +4364,7 @@ figcaption {
 
   .grid-3 {
     margin-right: -179px;
-    margin-bottom: -239px;
+    margin-bottom: 0px;
     margin-left: -179px;
   }
 
@@ -3628,6 +4375,14 @@ figcaption {
   .paragraph-7 {
     margin-right: 67px;
     margin-left: 67px;
+  }
+
+  .column-4 {
+    padding-right: 10px;
+  }
+
+  .columns-2 {
+    margin-left: -15px;
   }
 
   .div-block-23 {
@@ -3656,7 +4411,8 @@ figcaption {
   }
 
   .preloader {
-    display: block;
+    display: none;
+    background-color: #fff;
   }
 
   .html-embed-2 {
@@ -3693,7 +4449,76 @@ figcaption {
     margin-left: auto;
   }
 
+  .div-block-27 {
+    margin-right: 0px;
+  }
+
+  .column-6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+  }
+
+  .column-7 {
+    position: static;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+  }
+
   .grid-4 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    justify-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     -ms-grid-rows: auto;
@@ -3702,32 +4527,60 @@ figcaption {
 
   .link-block-5 {
     position: static;
-    width: 50vw;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
     margin-top: 35px;
     margin-right: 0px;
     padding-left: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .image-13 {
     width: 5vw;
-    margin-right: 42px;
+    margin-right: 20px;
     margin-left: auto;
   }
 
   .link-block-6 {
     position: static;
-    width: 50vw;
+    left: auto;
+    right: auto;
+    display: block;
+    width: 50%;
     margin-top: 35px;
     margin-right: auto;
-    margin-left: 0px;
+    margin-left: auto;
     padding-right: 0px;
     padding-left: 0px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .image-14 {
     width: 5vw;
     margin-right: auto;
-    margin-left: 29px;
+    margin-left: 20px;
   }
 
   .button-2 {
@@ -3740,12 +4593,14 @@ figcaption {
     margin-left: auto;
     padding-right: 0px;
     padding-left: 0px;
-    background-color: #414141;
+    border-radius: 15px;
+    background-color: #000;
     color: #fff;
     text-align: center;
   }
 
   .div-block-28 {
+    width: 100%;
     margin-top: -180px;
   }
 
@@ -3755,21 +4610,26 @@ figcaption {
 
   .html-embed-3 {
     display: block;
-    width: 100vw;
-    margin-top: 1px;
+    width: 100%;
+    margin-top: -565px;
     padding-left: 0px;
   }
 
   .section-3 {
     background-color: #fff;
   }
+
+  .div-block-33 {
+    margin-bottom: -130px;
+    padding-bottom: 221px;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .divider {
     margin-top: 206px;
-    margin-right: -56px;
-    margin-left: -56px;
+    margin-right: auto;
+    margin-left: auto;
     padding-right: 68px;
     padding-left: 68px;
   }
@@ -3790,15 +4650,17 @@ figcaption {
 
   .section.cc-store-home-wrap {
     margin-top: 25px;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
     background-color: #fff;
   }
 
   .about {
-    width: 110%;
-    margin-top: -526px;
-    margin-left: -32px;
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    margin-top: -446px;
+    margin-left: auto;
     padding-top: 44px;
     text-align: center;
   }
@@ -3822,10 +4684,11 @@ figcaption {
   }
 
   .paragraph-bigger.cc-bigger-white-light.another-type {
-    margin-top: -646px;
-    margin-bottom: 65px;
-    padding-right: 79px;
-    padding-left: 79px;
+    z-index: 3;
+    margin-top: -143px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
     font-size: 19px;
   }
 
@@ -3854,6 +4717,13 @@ figcaption {
     text-align: left;
   }
 
+  .paragraph-light {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 51px;
+    padding-left: 51px;
+  }
+
   .heading-jumbo {
     font-size: 50px;
     line-height: 64px;
@@ -3877,20 +4747,21 @@ figcaption {
   }
 
   .heading-jumbo.mobile.secondary-header {
-    margin-top: -949px;
-    margin-right: 10px;
-    margin-left: 10px;
+    z-index: 5;
+    width: 90vw;
+    margin-top: -542px;
+    margin-right: auto;
+    margin-left: auto;
     color: #000;
   }
 
   .heading-jumbo-small {
-    margin-top: 678px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 55px;
+    width: 80vw;
+    margin: 678px auto 0px;
+    padding-right: 86px;
     padding-bottom: 80px;
-    padding-left: 55px;
-    font-size: 30px;
+    padding-left: 86px;
+    font-size: 22px;
     line-height: 52px;
   }
 
@@ -3907,6 +4778,10 @@ figcaption {
 
   .navigation {
     padding: 20px 30px;
+  }
+
+  .logo-image {
+    width: 15vw;
   }
 
   .cta-wrap {
@@ -4020,13 +4895,34 @@ figcaption {
   }
 
   .services {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     margin-top: 0px;
+    margin-bottom: 60px;
     padding-top: 0px;
+    padding-right: 212px;
+    padding-left: 212px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .heading {
-    margin-right: -258px;
-    margin-left: -258px;
+    width: auto;
+    margin-right: 99px;
+    margin-left: 99px;
   }
 
   .image.brain {
@@ -4035,9 +4931,14 @@ figcaption {
     padding-left: 9px;
   }
 
+  .image.web-img {
+    margin-top: 45px;
+  }
+
   .heading-2 {
-    padding-right: 21px;
-    padding-left: 21px;
+    margin-top: 30px;
+    padding-right: 47px;
+    padding-left: 47px;
   }
 
   .grid {
@@ -4073,78 +4974,106 @@ figcaption {
   }
 
   .heading-4 {
-    margin-top: -57px;
-    margin-right: -424px;
-    margin-left: -150px;
+    position: relative;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
   }
 
   .paragraph-3 {
-    margin-right: -104px;
-    margin-left: -103px;
-    padding-right: 46px;
-    padding-left: 46px;
+    width: 460px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .image-4 {
+    width: 100%;
+    height: auto;
+    max-width: none;
+    min-width: 70%;
     margin-top: 0px;
-    margin-left: -70px;
+    margin-left: 0px;
   }
 
   .heading-5 {
-    margin-top: -20px;
-    padding-right: 27px;
-    padding-left: 27px;
+    margin-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .div-block-5 {
-    margin-right: 274px;
-    margin-left: -101px;
-    padding-right: 148px;
-    padding-left: 148px;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .image-5 {
+    display: none;
   }
 
   .image-5.extra-image {
+    display: block;
+    width: 100%;
+    height: auto;
     margin-top: 0px;
     margin-left: 0px;
   }
 
   .image-5.extra-image-2 {
+    width: 100%;
+    height: auto;
     margin-top: 0px;
-    margin-left: -68px;
+    margin-left: 0px;
   }
 
   .paragraph-5 {
-    margin-right: -31px;
-    margin-left: -30px;
-    padding-right: 35px;
-    padding-left: 35px;
+    width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .paragraph-5.extra-paragraph {
-    margin-right: -104px;
-    margin-left: -104px;
-    padding-right: 63px;
-    padding-left: 63px;
+    width: 450px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .heading-6 {
     margin-top: -25px;
-    margin-right: -104px;
-    margin-left: -113px;
+    margin-right: auto;
+    margin-left: auto;
     text-align: center;
   }
 
   .heading-7 {
     margin-top: -25px;
-    margin-right: -101px;
-    margin-left: -109px;
+    margin-right: auto;
+    margin-left: auto;
     text-align: center;
   }
 
   .heading-8 {
     margin-top: -35px;
-    margin-right: -12px;
-    margin-left: -20px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .image-6 {
@@ -4162,26 +5091,43 @@ figcaption {
     padding-left: 45px;
   }
 
+  .process {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
   .grid-2 {
     margin-right: auto;
     margin-left: auto;
   }
 
   .paragraph-6 {
-    width: auto;
-    margin-right: -421px;
-    margin-left: -149px;
-    padding-right: 54px;
-    padding-left: 54px;
+    width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px;
+    padding-left: 15px;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center;
   }
 
+  .div-block-10 {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .div-block-12 {
+    width: auto;
+  }
+
   .image-11 {
+    position: relative;
+    width: 100%;
+    height: auto;
     margin-top: 0px;
-    margin-left: -70px;
+    margin-left: 0px;
   }
 
   .column-2 {
@@ -4222,7 +5168,7 @@ figcaption {
   .grid-3 {
     display: -ms-grid;
     display: grid;
-    margin-bottom: 161px;
+    margin-bottom: 60px;
     grid-auto-columns: 1fr;
     grid-column-gap: 16px;
     grid-row-gap: 16px;
@@ -4240,6 +5186,33 @@ figcaption {
     padding-left: 0px;
   }
 
+  .column-4 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .columns-2 {
+    position: static;
+    display: block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
   .div-block-23 {
     margin-left: 0px;
   }
@@ -4253,11 +5226,17 @@ figcaption {
   }
 
   .preloader {
-    display: block;
+    display: none;
+    background-color: #fff;
   }
 
   .background-video {
     height: 45%;
+  }
+
+  .background-video.video {
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .link-block-3 {
@@ -4298,6 +5277,16 @@ figcaption {
     margin-left: auto;
   }
 
+  .column-6 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .column-7 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
   .grid-4 {
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -4309,27 +5298,34 @@ figcaption {
     position: static;
     width: 50vw;
     margin-top: 34px;
-    padding-left: 224px;
+    padding-left: 0px;
   }
 
   .image-13 {
-    width: 5vw;
-    margin-right: auto;
+    width: 7vw;
+    margin-right: 30px;
     margin-left: auto;
+    padding-right: 0px;
   }
 
   .link-block-6 {
     position: static;
     width: 50vw;
     margin-top: 34px;
-    padding-right: 247px;
+    margin-left: 0px;
+    padding-right: 0px;
     padding-left: 0px;
   }
 
   .image-14 {
-    width: 5vw;
+    width: 7vw;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 30px;
+  }
+
+  .button-2 {
+    display: block;
+    width: 25vw;
   }
 
   .div-block-28 {
@@ -4341,17 +5337,32 @@ figcaption {
   }
 
   .html-embed-3 {
+    position: relative;
     display: block;
     width: 100vw;
-    margin-top: -226px;
+    margin-top: -792px;
     margin-right: auto;
-    margin-left: -17px;
+    margin-left: auto;
     padding-left: 0px;
   }
 
   .section-3 {
     margin-top: -587px;
     background-color: transparent;
+  }
+
+  .div-block-33 {
+    z-index: 2;
+    height: 14vh;
+    margin-bottom: -219px;
+    padding-bottom: 154px;
+  }
+
+  .div-block-34 {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 
@@ -4370,7 +5381,7 @@ figcaption {
   }
 
   .section {
-    margin-top: -329px;
+    margin-top: 0px;
   }
 
   .section.cc-cta {
@@ -4388,8 +5399,9 @@ figcaption {
 
   .about {
     width: 100vw;
+    max-width: none;
     min-width: 100vw;
-    margin-top: -503px;
+    margin-top: -330px;
     margin-right: auto;
     margin-left: auto;
     padding: 30px 0px 0px;
@@ -4420,10 +5432,13 @@ figcaption {
   }
 
   .paragraph-bigger.cc-bigger-white-light.another-type {
-    margin-top: -691px;
+    left: auto;
+    width: auto;
+    margin-top: -57px;
     margin-bottom: 0px;
     padding-right: 0px;
     padding-left: 0px;
+    background-color: #fff;
   }
 
   .button.cc-jumbo-button {
@@ -4484,21 +5499,25 @@ figcaption {
   }
 
   .heading-jumbo.mobile.secondary-header {
+    top: -546px;
+    z-index: 5;
     display: block;
-    margin-top: -993px;
-    margin-right: 8px;
-    margin-left: 8px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
     padding-right: 0px;
     padding-left: 0px;
   }
 
   .heading-jumbo-small {
+    width: 100vw;
     margin-top: 671px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 32px;
     padding-left: 32px;
-    font-size: 30px;
+    border: 1px solid transparent;
+    font-size: 20px;
     line-height: 50px;
   }
 
@@ -4521,6 +5540,7 @@ figcaption {
   }
 
   .navigation-wrap {
+    border: 1px solid #fff;
     background-color: transparent;
   }
 
@@ -4557,8 +5577,10 @@ figcaption {
   }
 
   .logo-image {
-    width: 25vw;
+    width: 25.5vw;
     margin-top: 6px;
+    margin-left: 2px;
+    padding-left: 3px;
   }
 
   .navigation-items {
@@ -4592,6 +5614,7 @@ figcaption {
 
   .intro-header.after-version {
     display: none;
+    margin-top: 0px;
   }
 
   .intro-content.cc-homepage {
@@ -4671,6 +5694,7 @@ figcaption {
     margin-right: auto;
     margin-left: auto;
     padding-top: 100px;
+    padding-right: 0px;
     padding-left: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -4688,6 +5712,7 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    border: 1px solid transparent;
   }
 
   .heading {
@@ -4790,17 +5815,19 @@ figcaption {
   }
 
   .paragraph-3 {
+    width: 80vw;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 18px;
-    padding-left: 18px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .image-4 {
     position: relative;
-    width: 90vw;
+    width: 100vw;
     height: auto;
-    min-width: 90vw;
+    max-width: none;
+    min-width: 0px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 0px;
@@ -4808,9 +5835,9 @@ figcaption {
   }
 
   .heading-5 {
-    margin: -103px auto 91px;
-    padding-right: 27px;
-    padding-left: 27px;
+    margin: 0px auto 50px;
+    padding-right: 0px;
+    padding-left: 0px;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
@@ -4818,7 +5845,7 @@ figcaption {
   }
 
   .div-block-5 {
-    margin-top: -94px;
+    margin-top: -129px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 0px;
@@ -4852,7 +5879,7 @@ figcaption {
   }
 
   .image-5.extra-image {
-    width: 90vw;
+    width: 100vw;
     height: auto;
     min-width: 90vw;
     margin-right: auto;
@@ -4863,10 +5890,11 @@ figcaption {
 
   .image-5.extra-image-2 {
     position: relative;
-    width: 50%;
+    width: 100vw;
     height: auto;
     min-height: Infinity%;
-    min-width: 90vw;
+    min-width: 0%;
+    margin-top: 190px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 0px;
@@ -4874,18 +5902,18 @@ figcaption {
   }
 
   .paragraph-5 {
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 27px;
-    padding-left: 27px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .paragraph-5.extra-paragraph {
-    width: 100vw;
+    width: 100%;
     min-height: 0%;
     min-width: 0%;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 180px auto 0px;
     padding-right: 23px;
     padding-left: 23px;
   }
@@ -4930,12 +5958,13 @@ figcaption {
   }
 
   .image-7 {
-    width: 100%;
-    min-width: 25vw;
+    width: 130px;
+    height: auto;
+    min-width: auto;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 59px;
-    padding-left: 59px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .div-block-8 {
@@ -4973,23 +6002,28 @@ figcaption {
   }
 
   .paragraph-6 {
+    width: 80vw;
     margin-top: 0px;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 13px;
-    padding-left: 13px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .div-block-9 {
+    width: auto;
     margin-right: auto;
     margin-left: auto;
   }
 
   .div-block-10 {
     overflow: hidden;
+    width: auto;
+    margin-right: auto;
   }
 
   .div-block-11 {
+    width: auto;
     margin-right: auto;
     margin-left: auto;
   }
@@ -5002,9 +6036,9 @@ figcaption {
   }
 
   .image-11 {
-    width: 90vw;
+    width: 100vw;
     height: auto;
-    min-width: 90vw;
+    min-width: 0px;
     margin-top: 140px;
     margin-right: auto;
     margin-left: auto;
@@ -5014,7 +6048,7 @@ figcaption {
 
   .column-2 {
     overflow: hidden;
-    margin-top: -45px;
+    margin-top: -20px;
   }
 
   .column-3 {
@@ -5024,6 +6058,8 @@ figcaption {
   }
 
   .section-2 {
+    height: 25vh;
+    margin-bottom: 199px;
     padding-top: 0px;
     padding-bottom: 0px;
   }
@@ -5112,8 +6148,8 @@ figcaption {
     margin-right: auto;
     margin-bottom: -40px;
     margin-left: auto;
-    padding-right: 4px;
-    padding-left: 4px;
+    padding-right: 28px;
+    padding-left: 28px;
   }
 
   .column-4 {
@@ -5160,11 +6196,12 @@ figcaption {
 
   .preloader {
     position: fixed;
-    display: block;
+    display: none;
     width: 100%;
     height: 100%;
     margin-right: auto;
     margin-left: auto;
+    background-color: #fff;
     opacity: 1;
   }
 
@@ -5182,7 +6219,7 @@ figcaption {
   .background-video.video {
     display: block;
     width: 100vw;
-    height: 30vh;
+    height: 35vh;
     margin-top: 279px;
     margin-right: 0px;
     margin-left: auto;
@@ -5242,13 +6279,13 @@ figcaption {
   }
 
   .column-5 {
-    margin-top: -30px;
+    margin-top: -20px;
     padding-right: 0px;
     padding-left: 0px;
   }
 
   .column-6 {
-    margin-top: -30px;
+    margin-top: -20px;
     padding-right: 0px;
     padding-left: 0px;
   }
@@ -5258,7 +6295,18 @@ figcaption {
   }
 
   .grid-4 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     margin-top: 34px;
+    margin-bottom: 0px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    grid-auto-columns: 1fr;
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     -ms-grid-rows: auto;
@@ -5277,7 +6325,7 @@ figcaption {
   }
 
   .image-13 {
-    width: 8vw;
+    width: 10vw;
     margin-right: auto;
     margin-left: auto;
   }
@@ -5285,26 +6333,27 @@ figcaption {
   .link-block-6 {
     position: static;
     width: 45vw;
-    height: 20vh;
+    height: auto;
     margin: 34px auto 0px 0px;
     padding-right: 102px;
     padding-bottom: 0px;
   }
 
   .image-14 {
-    width: 8vw;
+    width: 10vw;
     margin-right: auto;
     margin-left: auto;
   }
 
   .button-2 {
     width: 35vw;
-    border-radius: 0px;
+    border-radius: 15px;
     font-weight: 400;
   }
 
   .div-block-28 {
     margin-top: -205px;
+    border: 1px solid transparent;
   }
 
   .div-block-29 {
@@ -5321,17 +6370,34 @@ figcaption {
   }
 
   .html-embed-3 {
+    position: relative;
+    left: -65px;
     display: block;
-    width: 136vw;
-    height: 100vh;
-    margin: -188px -78px 7px -115px;
+    width: 120vw;
+    height: 124vh;
+    margin: -617px auto 7px;
     padding-right: 0px;
     padding-bottom: 0px;
-    padding-left: 68px;
+    padding-left: 0px;
+    border: 1px solid transparent;
   }
 
   .section-3 {
+    border: 1px solid transparent;
     background-color: transparent;
+  }
+
+  .div-block-33 {
+    bottom: -26%;
+    width: 11vw;
+    height: 16vh;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-radius: 20px;
+  }
+
+  .div-block-35 {
+    border: 0px solid transparent;
   }
 }
 
